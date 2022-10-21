@@ -1,22 +1,32 @@
 import { Box, Button, Heading, Text } from '@chakra-ui/react';
-import React from 'react';
+import React, { useEffect } from 'react';
 import manageengine from '../assets/manageengine.gif';
 import triptoto from "../assets/tripoto.gif"
 import tata from '../assets/tata.gif';
 import nykaa from '../assets/nykaa.gif';
+import AOS from 'aos';
+
 
 export const Projects = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <section id="projects">
         <Box>
-          <br />
-          <Heading as={"h3"} size={'2xl'}>: Projects :</Heading>
+          {/* <br /> */}
+          <Heading data-aos="fade-up" as={"h3"} size={'2xl'}>: Projects :</Heading>
           </Box>
           <br />
           <br />
+          <br />
           <Box id="project_grid">
-            <Box>
+            <Box 
+            data-aos="zoom-in-up"
+            data-aos-delay="30"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-cubic">
               <Box id="screen">
                 <img src={tata} alt="" />
               </Box>
@@ -39,7 +49,11 @@ export const Projects = () => {
                </Box>
               </Box>
             </Box>
-            <Box>
+            <Box
+            data-aos="zoom-in-up"
+            data-aos-delay="30"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-cubic">
               <Box id="screen">
                 <img src={nykaa} alt="" />
               </Box>
@@ -62,7 +76,11 @@ export const Projects = () => {
                </Box>
               </Box>
             </Box>
-            <Box>
+            <Box
+            data-aos="zoom-in-up"
+            data-aos-delay="30"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-cubic">
               <Box id="screen">
                 <img src={manageengine} alt="" />
               </Box>
@@ -86,7 +104,11 @@ export const Projects = () => {
                </Box>
               </Box>
             </Box>
-            <Box>
+            <Box 
+            data-aos="zoom-in-up"
+            data-aos-delay="30"
+            data-aos-duration="1200"
+            data-aos-easing="ease-in-out-cubic">
               <Box id="screen">
                 <img src={triptoto} alt="" />
               </Box>

@@ -1,25 +1,39 @@
 import { Box, Button, Heading } from '@chakra-ui/react';
-import React from 'react';
-import bgvideos from '../assets/videos.mp4';
+import React, { useEffect } from 'react';
+import resume from '../assets/Rohit_Sawant_Resume.pdf';
+import AOS from 'aos';
+
+
 
 function Home() {
+
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
     <div id="home">
       <Box>
-        <Box paddingTop={'15%'} textAlign={'left'}>
-          <Heading textAlign={'center'} as="h3" size={'2xl'}>
-          👋 Hi, Myself Rohit Sawant
-          </Heading>
-          <br />
-          <br />
-          <Heading textAlign={'center'} as={'h1'} size={'4xl'}>
-            FULL STACK WEB DEVELOPER
-          </Heading>
-          <br />
-          <br />
-          <br />
-          <Button id="resume">RESUME</Button>
+        
+        <br />
+        <Box  style={{"display":"flex","flexDirection":"column","textAlign":"center","marginTop":"10%","marginBottom":"5%"}}>
+        <Heading  as={"h1"} size={"3xl"} >Hi, I am Rohit Sawant</Heading>
+        <br />
+        <br />
+        <Heading as={"h1"} size={"4xl"}>FULL STACK WEB DEVELOPER </Heading>
         </Box>
+
+
+        <a href={resume} download>
+          <Button
+            onClick={() => {
+              window.open(resume);
+            }}
+            id="resume"
+          >
+            RESUME
+          </Button>
+        </a>
       </Box>
     </div>
   );
