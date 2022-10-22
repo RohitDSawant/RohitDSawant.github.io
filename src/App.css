@@ -201,7 +201,7 @@
 #project_grid >div{
     padding: 20px;
     border-radius: 10px;
-    height: 100%;
+    /* height: 100%; */
 }
 
 #project_grid >div:hover{
@@ -289,12 +289,6 @@
 }
 
 
-svg:nth-child(1){
-    /* display: flex; */
-    margin-left: 10%;
-    /* justify-content: center; */
-    /* border: 1px solid; */
-}
 
 
 #contact{
@@ -477,8 +471,10 @@ svg:nth-child(1){
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #project_grid > div{
-       margin-bottom: 10%;
+    #project_grid  div{
+       height: auto;
+       padding: 10px;
+       /* border: 1px solid; */
     }
 
     #project_grid > div > div p{
@@ -508,7 +504,7 @@ svg:nth-child(1){
 
     #tech_stack > h3{
         font-size: 15px;
-        color: yellow;
+       
         font-family:monospace;
     }
     
@@ -518,7 +514,24 @@ svg:nth-child(1){
     }
 
     i{
-        font-size: 30px;
+        font-size: 20px;
+    }
+
+    .btn >a  button{
+        height: 30px;
+        margin-right: 10px;
+
+    }
+
+    #contact_grid i{
+        font-size: 25px;
+        color: black;
+    }
+
+    #contact_grid > div{
+        border: 1px solid grey;
+        padding: 7px;
+        border-radius: 10px;
     }
 
 }
@@ -578,8 +591,10 @@ svg:nth-child(1){
         grid-template-columns: repeat(1, 1fr);
     }
 
-    #project_grid > div{
-       margin-bottom: 10%;
+    #project_grid  div{
+       /* margin-bottom: 10%; */
+       height: auto;
+       /* border: 1px solid; */
     }
 
     #project_grid > div > div p{
@@ -613,7 +628,7 @@ svg:nth-child(1){
 
     #tech_stack > h3{
         font-size: 18px;
-        color: yellow;
+        
         font-family:monospace;
     }
     

@@ -22,12 +22,12 @@ export const Contact = () => {
         <br />
         <Box  id="contact_grid">
           <Box>
-            <a href="https://github.com/RohitDSawant"></a>
-            <i class="fa-brands fa-github"></i>
+            <a href="https://github.com/RohitDSawant">
+            <i class="fa-brands fa-github"></i></a>
           </Box>
           <Box>
-            <a href="https://www.linkedin.com/in/rohit-sawant-a1b636177"></a>
-            <i class="fa-brands fa-linkedin"></i>
+            <a href="https://www.linkedin.com/in/rohit-sawant-a1b636177">
+            <i class="fa-brands fa-linkedin"></i></a>
           </Box>
           <Box>
             <a href={`mailto: rohits1547@gmail.com`}>
