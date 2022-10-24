@@ -26,17 +26,18 @@ export const Navbar = () => {
           <br />
           <Button colorScheme={"none"} color="navy" size={"xs"} onClick={toggleColorMode}>
             {colorMode === 'light' ? <i class="fa-regular fa-moon"></i> : <i class="fa-regular fa-sun"></i> }
+            
           </Button>
         </Menu>
       </Box>
 
       {/* =========== */}
-      <Flex id="navbar">
+      <Flex alignItems={"center"} id="navbar">
         <Box p="2">
           <a href="#home">
             <img
               id="R"
-              src="https://i.pinimg.com/originals/e9/8b/5d/e98b5da9ca11e5ab90c8108d89ea4b26.jpg"
+              src="https://i.pinimg.com/originals/da/b7/53/dab753b06032875bc65d19f6a7c741cb.png"
               alt=""
             />
           </a>

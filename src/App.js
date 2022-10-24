@@ -1,5 +1,5 @@
 import React from 'react';
-import { ChakraProvider , ColorModeScript, theme} from '@chakra-ui/react';
+import { ChakraProvider , ColorModeProvider, ColorModeScript, theme} from '@chakra-ui/react';
 import { Navbar } from './components/Navbar';
 import Home from './components/Home';
 import "../src/App.css"
@@ -12,7 +12,8 @@ import { GitCalender } from './components/GithubCalender';
 function App() {
   return (
     <ChakraProvider theme={theme}>
-       <ColorModeScript initialColorMode={theme.config.initialColorMode} />
+      <ColorModeProvider>
+       <ColorModeScript initialColorMode={theme.config.initialColorMode}></ColorModeScript>
         <Navbar/>
         <Home/>
         <About/>
@@ -20,7 +21,7 @@ function App() {
         <Projects/>
         <GitCalender/>
         <Contact/>
-        
+        </ColorModeProvider>
     </ChakraProvider>
   );
 }

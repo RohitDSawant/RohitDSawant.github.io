@@ -1,7 +1,6 @@
 *{
     margin: 0;
     padding: 0;
-    color: black;
 }
 
 #R{
@@ -39,7 +38,6 @@
 
 #home{
     height: 100vh;
-    color: black;
 }
 
 #hi{
@@ -87,7 +85,7 @@
 
 
 #about{
-    color: black;
+    
     height: 100vh;
     display: flex;
     align-items: center;
@@ -135,7 +133,6 @@
     /* background: linear-gradient(rgb(0, 162, 255),rgba(0, 0, 0, 0.292),rgb(0, 115, 255)); */
     padding-top: 4.5%;
     padding-bottom: 5%;
-    color: black;
     /* background: linear-gradient(rgb(228, 235, 135), white, rgb(90, 151, 205)) */
 }
 
@@ -160,7 +157,6 @@
     justify-content: space-around;
     align-items: center;
     font-size: 16px;
-    color: black;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 700;
 
@@ -175,7 +171,7 @@
 
 #skills-grid >div:hover{
     padding: 10%;
-    box-shadow: rgba(11, 35, 43, 0.868) 0px 2px 4px 0px, rgba(21, 21, 57, 0.658) 0px 2px 16px 0px;
+    box-shadow: rgba(234, 236, 237, 0.868) 0px 3px 3px 2px, rgba(21, 21, 57, 0.658) 0px 2px 16px 0px;
 }
 
 
@@ -183,10 +179,9 @@
 
 #projects{
     padding-top: 5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
     /* margin-bottom: 2%; */
     text-align: center;
-    color: black;
     /* background-image: url("https://png.pngtree.com/back_origin_pic/03/64/88/61f6be20861ae675113c29ab97fb99d7.jpg"); */
 }
 
@@ -202,19 +197,19 @@
     padding: 20px;
     border-radius: 10px;
     /* height: 100%; */
+    
 }
 
 #project_grid >div:hover{
-    background-color: rgb(144, 144, 144);
-    color: black;
-    padding: 2%;
+    background-color: rgb(233, 249, 10);
+    padding: 2% 5%;
+    color:black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 #project_grid >div> div{
     overflow: hidden;
-    
-
+  
 }
 
 #project_grid >div> div> img{
@@ -225,23 +220,23 @@
 .btn {
     display: flex;
     justify-content: space-around;
-    width: 40%;
+    width: 50%;
     margin: auto;
-    margin-top: 20px;
+    margin-top: 40px;
     /* border: 1px solid red; */
 }
 
-.btn > button{
-    font-size: 40px;
+.btn  button{
+    font-size: 35px;
     background:none;
 }
 
-.btn > a{
-    color: black;
-}
 
-.btn > button:hover{
+
+.btn  button:hover{
+    color:crimson;
     background:none;
+
 }
 
 #sep{
@@ -281,7 +276,7 @@
 
 #calender{
     margin: auto;
-    border: 1px solid;
+    /* border: 1px solid; */
     border-radius: 10px;
     width: 70%;
     padding: 20px;
@@ -289,12 +284,20 @@
 }
 
 
+#stats{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+    width: 99%;
+}
 
+#stats img {
+    border-radius: 10px;
+}
 
 #contact{
     /* background-image: url("https://th.bing.com/th/id/R.c4c72f2a347e16f2f812ed9dc756fbe4?rik=58Qzqocgb3Abbw&riu=http%3a%2f%2fwww.2cooldesign.co.za%2fportfolio%2fwp-content%2fuploads%2f2013%2f03%2fbackground-website-1024x448.jpg&ehk=F%2bW%2fpEv58LCR7aAZENfneViJUglFzFF0nM26oajcBnk%3d&risl=&pid=ImgRaw&r=0"); */
-    padding-bottom: 2%;
-    color: black;
+    padding-bottom: 7%;
 }
 
 #contact_grid{
@@ -314,11 +317,11 @@
 
 #contact_grid i{
     font-size: 35px;
-    color: black;
 }
 
-#contact_grid i:hover{
+#contact_grid div:hover{
     cursor: pointer;
+    box-shadow: rgba(243, 239, 239, 0.35) -1px 5px 25px 5px;
 }
 
 

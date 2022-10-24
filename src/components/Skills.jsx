@@ -17,6 +17,7 @@ export const Skills = () => {
         <Heading data-aos="fade-up" size={"2xl"} textAlign="center">: Tech Stack : </Heading>
         <br />
         <br />
+        <br />
         <Box id="skills-grid">
           <Box
            data-aos="fade-left"
