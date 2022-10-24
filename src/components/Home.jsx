@@ -11,7 +11,6 @@ function Home() {
   return (
     <div id="home">
       <Box>
-        <br />
         <Box
           style={{
             display: 'flex',
@@ -21,15 +20,16 @@ function Home() {
             marginBottom: '5%',
           }}
         >
-          <Text fontWeight={'bold'} fontSize={'6xl'}>
-            Hi, I am Rohit Sawant
-          </Text>
+          <Box data-aos="fade-left">
+            <Text id="hi">Hi, I am Rohit Sawant</Text>
+          </Box>
           <br />
-          <Text fontWeight={'bold'} fontSize={'7xl'}>
-            FULL STACK WEB DEVELOPER{' '}
-          </Text>
+          <br />
+          <Box data-aos="zoom-in" >
+            <Text id="fsd">FULL STACK WEB DEVELOPER </Text>
+          </Box>
         </Box>
-
+        <br />
         <a href={resume} download>
           <Button
             onClick={() => {

@@ -37,7 +37,7 @@ export const Navbar = () => {
           <a href="#home">
             <img
               id="R"
-              src="https://i.pinimg.com/originals/da/b7/53/dab753b06032875bc65d19f6a7c741cb.png"
+              src="https://cdn.dribbble.com/users/1732431/screenshots/4701576/dribbble.png"
               alt=""
             />
           </a>

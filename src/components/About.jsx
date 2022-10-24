@@ -25,6 +25,7 @@ function About() {
               About Me:
             </Heading>
             <br />
+            <br />
             <p 
             data-aos="flip-right"
             data-aos-delay="30"
