@@ -1,10 +1,11 @@
 *{
     margin: 0;
     padding: 0;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 #R{
-    height: 40px;
+    height: 35px;
     width: 80%;
     border-radius: 50%;
 }
@@ -17,7 +18,7 @@
   
 
 #fsd{
-    font-size: 90px;
+    font-size: 74px;
     background-image: linear-gradient(
       -225deg,
       #d2cce9 0%,
@@ -30,8 +31,9 @@
     background-size: 200% auto;
     color: #fff;
     background-clip: text;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
-    text-fill-color: transparent;
+    /* text-fill-color: transparent; */
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     animation: textclip 3s linear infinite;
@@ -66,7 +68,7 @@
 #navbar p {
     color: black;
     font-weight: 600;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 #resume:hover{
@@ -454,7 +456,7 @@
     }
 
     #fsd{
-        font-size: 50px;
+        font-size: 45px;
         font-weight: bolder;
     }
 
