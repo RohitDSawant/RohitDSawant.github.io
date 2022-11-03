@@ -47,11 +47,15 @@
     }
   }
 
+  #menu-child{
+    border: 1px solid;
+  }
   
 
 #menu{
     display: none;
 }
+
 #navbar{
     display:flex;
     position:fixed;
@@ -68,7 +72,7 @@
 #navbar p {
     color: black;
     font-weight: 600;
-    font-size: 14px;
+    font-size: 16px;
 }
 
 #resume:hover{
