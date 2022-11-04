@@ -355,6 +355,7 @@
 
 #contact_grid i{
     font-size: 35px;
+    /* color: black; */
 }
 
 #contact_grid div:hover{

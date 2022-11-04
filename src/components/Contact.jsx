@@ -21,28 +21,20 @@ export const Contact = () => {
         <br />
         <br />
         <Box id="contact_grid">
-          <a href="https://github.com/RohitDSawant">
-            <Box data-aos="fade-left">
-              <i class="fa-brands fa-github"></i>
-            </Box>
+          <a data-aos="fade-left" href="https://github.com/RohitDSawant">
+            <i class="fa-brands fa-github"></i>
           </a>
-          <a href="https://www.linkedin.com/in/rohit-sawant-a1b636177">
-            <Box data-aos="fade-left">
-              <i class="fa-brands fa-linkedin"></i>
-            </Box>
+          <a
+            data-aos="fade-left"
+            href="https://www.linkedin.com/in/rohit-sawant-a1b636177"
+          >
+            <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a href={`mailto: rohits1547@gmail.com`}>
-            <Box data-aos="fade-right">
-              <i class="fa-regular fa-envelope"></i>
-            </Box>{' '}
+          <a data-aos="fade-right" href={`mailto: rohits1547@gmail.com`}>
+            <i class="fa-regular fa-envelope"></i>
           </a>
-          <a href={`tel:9967722208`}>
-            <Box
-              data-aos="fade-right"
-              style={{ display: 'flex', alignItems: 'center', gap: '10px' }}
-            >
-              <i class="fa-sharp fa-solid fa-phone"></i>
-            </Box>
+          <a data-aos="fade-right" href={`tel:9967722208`}>
+            <i class="fa-sharp fa-solid fa-phone"></i>
           </a>
         </Box>
       </Box>
