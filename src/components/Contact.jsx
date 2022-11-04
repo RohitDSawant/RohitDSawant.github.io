@@ -21,19 +21,19 @@ export const Contact = () => {
         <br />
         <br />
         <Box id="contact_grid">
-          <a data-aos="fade-left" href="https://github.com/RohitDSawant">
+          <a data-aos="fade-left" target={"_blank"} href="https://github.com/RohitDSawant">
             <i class="fa-brands fa-github"></i>
           </a>
           <a
-            data-aos="fade-left"
+            data-aos="fade-left" target={"_blank"}
             href="https://www.linkedin.com/in/rohit-sawant-a1b636177"
           >
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a data-aos="fade-right" href={`mailto: rohits1547@gmail.com`}>
+          <a data-aos="fade-right" target={"_blank"} href={`mailto: rohits1547@gmail.com`}>
             <i class="fa-regular fa-envelope"></i>
           </a>
-          <a data-aos="fade-right" href={`tel:9967722208`}>
+          <a data-aos="fade-right" target={"_blank"} href={`tel:9967722208`}>
             <i class="fa-sharp fa-solid fa-phone"></i>
           </a>
         </Box>
