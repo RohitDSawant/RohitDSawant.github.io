@@ -578,6 +578,18 @@
         width: 90%;
     }
 
+    #stats{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: auto;
+        gap: 10px;
+    }
+
+    #stats img{
+        height: 100px;
+    }
+
 }
 
 @media all and (min-width: 427px) and (max-width:769px){
