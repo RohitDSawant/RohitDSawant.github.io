@@ -20,26 +20,30 @@ export const Contact = () => {
         <br />
         <br />
         <br />
-        <Box  id="contact_grid">
-          <Box data-aos="fade-left"
-             >
-            <a href="https://github.com/RohitDSawant">
-            <i class="fa-brands fa-github"></i></a>
-          </Box>
-          <Box data-aos="fade-left">
-            <a href="https://www.linkedin.com/in/rohit-sawant-a1b636177">
-            <i class="fa-brands fa-linkedin"></i></a>
-          </Box>
-          <Box data-aos="fade-right">
-            <a href={`mailto: rohits1547@gmail.com`}>
+        <Box id="contact_grid">
+          <a href="https://github.com/RohitDSawant">
+            <Box data-aos="fade-left">
+              <i class="fa-brands fa-github"></i>
+            </Box>
+          </a>
+          <a href="https://www.linkedin.com/in/rohit-sawant-a1b636177">
+            <Box data-aos="fade-left">
+              <i class="fa-brands fa-linkedin"></i>
+            </Box>
+          </a>
+          <a href={`mailto: rohits1547@gmail.com`}>
+            <Box data-aos="fade-right">
               <i class="fa-regular fa-envelope"></i>
-            </a>
-          </Box>
-          <Box data-aos="fade-right" style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
-            <a href={`tel:9967722208`}>
+            </Box>{' '}
+          </a>
+          <a href={`tel:9967722208`}>
+            <Box
+              data-aos="fade-right"
+              style={{ display: 'flex', alignItems: 'center', gap: '10px' }}
+            >
               <i class="fa-sharp fa-solid fa-phone"></i>
-            </a>
-          </Box>
+            </Box>
+          </a>
         </Box>
       </Box>
     </div>

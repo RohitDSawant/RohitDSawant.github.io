@@ -6,6 +6,8 @@ import tata from '../assets/tata.gif';
 import nykaa from '../assets/nykaa.gif';
 import AOS from 'aos';
 
+
+
 export const Projects = () => {
   useEffect(() => {
     AOS.init();
