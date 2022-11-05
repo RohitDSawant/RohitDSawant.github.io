@@ -92,10 +92,10 @@ export const Skills = () => {
             data-aos-easing="ease-in-out-cubic"
             >
             <img
-              src="https://seeklogo.com/images/N/netlify-logo-758722CDF4-seeklogo.com.png"
+              src="https://cdn.acodez.in/wp-content/uploads/2017/11/Express.js.jpg"
               alt=""
             />
-            <Text>NETLIFY</Text>
+            <Text>Express JS</Text>
           </Box>
           <Box 
           data-aos="fade-right"
@@ -104,10 +104,10 @@ export const Skills = () => {
             data-aos-easing="ease-in-out-cubic"
             >
             <img
-              src="https://daffyta.github.io/assets/img/icono/git.png"
+              src="https://pngimg.com/uploads/github/github_PNG40.png"
               alt=""
             />
-            <Text>GIT</Text>
+            <Text>GITHUB</Text>
           </Box>
           <Box 
           data-aos="fade-right"
@@ -156,8 +156,7 @@ export const Skills = () => {
               alt=""
             />
             <Text>JEST</Text>
-          </Box>
-          
+          </Box>          
         </Box>
       </Box>
     </div>

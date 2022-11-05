@@ -31,7 +31,7 @@ function About() {
             data-aos-delay="30"
             data-aos-duration="1800"
             data-aos-easing="ease-in-out-cubic">
-              Self-motivated and hardworking Full Stack Devloper seeking an opportunity to work in a
+              Self-motivated and hardworking Full Stack Developer seeking an opportunity to work in a
               challenging environment to prove my skills and utilize my
               knowledge & intelligence in the organization's growth.
             </p>

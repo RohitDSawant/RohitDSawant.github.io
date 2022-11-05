@@ -18,7 +18,7 @@
   
 
 #fsd{
-    font-size: 75px;
+    font-size: 95px;
     background-image: linear-gradient(
       -225deg,
       #d2cce9 0%,
@@ -107,15 +107,6 @@
 }
 
 
-.typed-out{
-    overflow: hidden;
-    text-align: center;
-    margin: auto;
-    border-right: 0px solid crimson;
-    white-space: nowrap;
-    animation: typing 2s steps(10, end) forwards;
-    /* font-size: 1.6rem; */
-  }
  
 
 #resume{
@@ -133,9 +124,7 @@
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-around;
-    /* background-image: url("https://www.mcclureinsure.com/wp-content/uploads/2014/05/Blurred-Background-Light.jpg"); */
-    
+    justify-content: space-around;  
     
 }
 
@@ -174,10 +163,8 @@
 
 #skills{
     height: 100vh;
-    /* background: linear-gradient(rgb(0, 162, 255),rgba(0, 0, 0, 0.292),rgb(0, 115, 255)); */
     padding-top: 4.5%;
     margin-bottom: 7%;
-    /* background: linear-gradient(rgb(228, 235, 135), white, rgb(90, 151, 205)) */
 }
 
 #skills-grid{
@@ -239,8 +226,8 @@
 }
 
 #project_grid >div:hover{
-    background-color: rgb(233, 249, 10);
-    padding: 2% 5%;
+    background-color: rgb(236, 248, 109);
+    padding: 5% 2% 5% 2%;
     color:black;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
