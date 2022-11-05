@@ -22,7 +22,7 @@ function About() {
               size={'2xl'}
             >
              
-              About Me:
+             💁‍♂️  About Me
             </Heading>
             <br />
             <br />

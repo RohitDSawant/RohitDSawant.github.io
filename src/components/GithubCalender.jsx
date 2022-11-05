@@ -12,7 +12,7 @@ export const GitCalender = () => {
         size="2xl"
         marginBottom={'2%'}
       >
-        : <i class="fa-brands fa-square-github"></i> Activities :
+        <i class="fa-brands fa-square-github"></i> Activities 📈
       </Heading>
       <Box id="calender">
         <p align="center">

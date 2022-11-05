@@ -21,7 +21,7 @@ function Home() {
           }}
         >
           <Box data-aos="fade-left">
-            <Text id="hi">Hi, I am Rohit Sawant</Text>
+            <Text id="hi"> 🙋‍♂️ Hi, I am Rohit Sawant</Text>
           </Box>
           <br />
           <br />

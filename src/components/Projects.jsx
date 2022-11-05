@@ -18,7 +18,7 @@ export const Projects = () => {
         <Box>
           {/* <br /> */}
           <Heading data-aos="fade-up" as={'h3'} size={'2xl'}>
-            : Projects :
+          💻 Projects 
           </Heading>
         </Box>
         <br />

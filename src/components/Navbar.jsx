@@ -1,9 +1,6 @@
 import {
   Box,
   Button,
-  ButtonGroup,
-  Flex,
-  Spacer,
   Text,
   useColorMode,
 } from '@chakra-ui/react';
@@ -11,9 +8,7 @@ import React from 'react';
 import { slide as Menu } from 'react-burger-menu';
 
 export const Navbar = () => {
-
-  const { colorMode, toggleColorMode } = useColorMode()
-
+  const { colorMode, toggleColorMode } = useColorMode();
 
   return (
     <div>
@@ -24,15 +19,23 @@ export const Navbar = () => {
           <a href="#projects">Projects</a>
           <a href="#contact">Contact</a>
           <br />
-          <Button colorScheme={"none"} color="navy" size={"xs"} onClick={toggleColorMode}>
-            {colorMode === 'light' ? <i class="fa-regular fa-moon"></i> : <i class="fa-regular fa-sun"></i> }
-            
+          <Button
+            colorScheme={'none'}
+            color="navy"
+            size={'xs'}
+            onClick={toggleColorMode}
+          >
+            {colorMode === 'light' ? (
+              <i class="fa-regular fa-moon"></i>
+            ) : (
+              <i class="fa-regular fa-sun"></i>
+            )}
           </Button>
         </Menu>
       </Box>
 
       {/* =========== */}
-      <Flex alignItems={"center"} id="navbar">
+      <Box display={'flex'} alignItems={'center'} justifyContent={"space-between"} id="navbar">
         <Box p="2">
           <a href="#home">
             <img
@@ -42,8 +45,7 @@ export const Navbar = () => {
             />
           </a>
         </Box>
-        <Spacer />
-        <ButtonGroup gap="7">
+        <Box>
           <a href="#about">
             <Button background={'none'} color={'black'}>
               <Text>About</Text>
@@ -64,11 +66,20 @@ export const Navbar = () => {
               <Text>Contact</Text>
             </Button>
           </a>
-          <Button colorScheme={"none"} color="navy" size={"lg"} onClick={toggleColorMode}>
-            {colorMode === 'light' ? <i class="fa-regular fa-moon"></i> : <i class="fa-regular fa-sun"></i> }
+          <Button
+            colorScheme={'none'}
+            color="navy"
+            size={'lg'}
+            onClick={toggleColorMode}
+          >
+            {colorMode === 'light' ? (
+              <i class="fa-regular fa-moon"></i>
+            ) : (
+              <i class="fa-regular fa-sun"></i>
+            )}
           </Button>
-        </ButtonGroup>
-      </Flex>
+        </Box>
+      </Box>
     </div>
   );
 };

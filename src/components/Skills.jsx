@@ -14,7 +14,7 @@ export const Skills = () => {
     <div>
       <Box id='skills'>
         <br />
-        <Heading data-aos="fade-up" size={"2xl"} textAlign="center">: Tech Stack : </Heading>
+        <Heading data-aos="fade-up" size={"2xl"} textAlign="center"> 🤹🏻 Tech Skills  </Heading>
         <br />
         <br />
         <br />
