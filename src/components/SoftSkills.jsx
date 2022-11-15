@@ -3,7 +3,8 @@ import React, { useEffect } from 'react';
 import AOS from 'aos';
 
 
-export const SoftSkills = () => {
+ const Soft = () => {
+
   useEffect(() => {
     AOS.init();
   }, []);
@@ -85,3 +86,5 @@ export const SoftSkills = () => {
     </div>
   );
 };
+
+export default Soft
