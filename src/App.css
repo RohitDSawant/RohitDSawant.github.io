@@ -76,9 +76,9 @@
   color: white;
 }
 
-#home {
-  height: 100vh;
-}
+/* #home {
+  height: 90vh;
+} */
 
 #hi {
   height: 60px;
@@ -98,7 +98,7 @@
   width: 85%;
   margin: auto;
   text-align: center;
-  /* border: 1px solid white; */
+  /* border: 1px solid; */
 }
 
 #resume {
@@ -113,6 +113,7 @@
 #about {
   height: 100vh;
   display: flex;
+    /* border: 1px solid; */
   align-items: center;
   justify-content: space-around;
 }
