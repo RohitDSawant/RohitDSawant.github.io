@@ -1,5 +1,6 @@
 import { Box, Heading, Text } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
+import { FaGithub, FaLinkedinIn, FaMailBulk, FaPhoneAlt } from 'react-icons/fa';
 import AOS from 'aos';
 
 export const Contact = () => {
@@ -14,7 +15,7 @@ export const Contact = () => {
       <Box>
         <Box>
           <Heading data-aos="zoom-in-up" size={'2xl'} textAlign="center">
-          📩 Contact Me
+            📩 Contact Me
           </Heading>
         </Box>
         <br />
@@ -26,24 +27,33 @@ export const Contact = () => {
             target={'_blank'}
             href="https://github.com/RohitDSawant"
           >
-            <i class="fa-brands fa-github"></i>
+            <Heading as={"p"}>
+              {' '}
+              <FaGithub />
+            </Heading>
           </a>
           <a
             data-aos="fade-left"
             target={'_blank'}
             href="https://www.linkedin.com/in/rohit-sawant-a1b636177"
           >
-            <i class="fa-brands fa-linkedin"></i>
+            <Heading as={"p"}>
+              <FaLinkedinIn />
+            </Heading>
           </a>
           <a
             data-aos="fade-right"
             target={'_blank'}
             href={`mailto: rohits1547@gmail.com`}
           >
-            <i class="fa-regular fa-envelope"></i>
+            <Heading as={"p"}>
+              <FaMailBulk />
+            </Heading>
           </a>
           <a data-aos="fade-right" target={'_blank'} href={`tel:9967722208`}>
-            <i class="fa-sharp fa-solid fa-phone"></i>
+            <Heading as={"p"}>
+              <FaPhoneAlt />
+            </Heading>
           </a>
         </Box>
       </Box>

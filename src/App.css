@@ -345,7 +345,7 @@
   border-radius: 10px;
 }
 
-#contact_grid i {
+#contact_grid p {
   font-size: 35px;
   /* color: black; */
 }
@@ -414,6 +414,9 @@
 }
 
 /* =============> Media Queries <================ */
+
+
+/* =============> Mobile View =================> */
 
 @media all and (min-width: 125px) and (max-width: 426px) {
   #menu {
@@ -538,7 +541,7 @@
     margin-right: 10px;
   }
 
-  #contact_grid i {
+  #contact_grid p {
     font-size: 25px;
   }
 
@@ -585,6 +588,8 @@
   }
 }
 
+/*  ============> Tablet View ================> */
+ 
 @media all and (min-width: 427px) and (max-width: 769px) {
   #menu {
     display: none;
@@ -694,7 +699,7 @@
     font-size: 30px;
   }
 
-  #contact_grid i {
+  #contact_grid p {
     font-size: 25px;
   }
 
