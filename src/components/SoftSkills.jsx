@@ -2,9 +2,7 @@ import { Box, Heading, Text } from '@chakra-ui/react';
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 
-
- const Soft = () => {
-
+const Soft = () => {
   useEffect(() => {
     AOS.init();
   }, []);
@@ -12,13 +10,12 @@ import AOS from 'aos';
   return (
     <div>
       <Heading data-aos="fade-up" size={'2xl'} textAlign="center">
-      ✅ Soft Skills
+        ✅ Soft Skills
       </Heading>
       <br />
       <br />
 
       <Box id="soft-skill">
-        
         <Box
           data-aos="fade-left"
           data-aos-delay="30"
@@ -80,11 +77,8 @@ import AOS from 'aos';
           <Text>GOOD LISTENER</Text>
         </Box>
       </Box>
-      <br />
-      <br />
-      <br />
     </div>
   );
 };
 
-export default Soft
+export default Soft;
