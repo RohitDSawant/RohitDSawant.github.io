@@ -13,13 +13,10 @@ export const Skills = () => {
     <div>
       <Box id="skills">
         <br />
-        <Heading data-aos="fade-up" size={'2xl'} textAlign="center">
-          {' '}
-          🤹🏻 Tech Skills{' '}
+        <Heading marginBottom={"7%"} data-aos="fade-up" size={'2xl'} textAlign="center">
+          🤹🏻 Tech Skills
         </Heading>
-        <br />
-        <br />
-        <br />
+       
         <Box id="skills-grid">
           <Box
             data-aos="fade-left"
@@ -39,7 +36,7 @@ export const Skills = () => {
             data-aos-easing="ease-in-out-cubic"
           >
             <img
-              src="https://www.freepnglogos.com/uploads/html5-logo-png/html5-logo-css-logo-png-transparent-svg-vector-bie-supply-9.png"
+              src="https://1000logos.net/wp-content/uploads/2020/09/CSS-Logo-640x400.png"
               alt=""
             />
           </Box>
